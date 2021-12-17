@@ -16,6 +16,15 @@
 		E29E845B279B159A00D12BD1 /* Messaging_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E845A279B159A00D12BD1 /* Messaging_AppTests.swift */; };
 		E29E8465279B159A00D12BD1 /* Messaging_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E8464279B159A00D12BD1 /* Messaging_AppUITests.swift */; };
 		E29E8467279B159A00D12BD1 /* Messaging_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E8466279B159A00D12BD1 /* Messaging_AppUITestsLaunchTests.swift */; };
+		E29E8477279B17B000D12BD1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E29E8476279B17B000D12BD1 /* GoogleService-Info.plist */; };
+		E29E8483279B1B6100D12BD1 /* SettingsViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E8481279B1B6100D12BD1 /* SettingsViewVC.swift */; };
+		E29E8484279B1B6100D12BD1 /* SettingsViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29E8482279B1B6100D12BD1 /* SettingsViewVC.xib */; };
+		E29E8487279B1B7300D12BD1 /* MessagesViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E8485279B1B7300D12BD1 /* MessagesViewVC.swift */; };
+		E29E8488279B1B7300D12BD1 /* MessagesViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29E8486279B1B7300D12BD1 /* MessagesViewVC.xib */; };
+		E29E848B279B1C1400D12BD1 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E8489279B1C1400D12BD1 /* SignUpVC.swift */; };
+		E29E848C279B1C1400D12BD1 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29E848A279B1C1400D12BD1 /* SignUpVC.xib */; };
+		E29E848F279B1C2C00D12BD1 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E848D279B1C2C00D12BD1 /* LogInVC.swift */; };
+		E29E8490279B1C2C00D12BD1 /* LogInVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29E848E279B1C2C00D12BD1 /* LogInVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		E29E8460279B159A00D12BD1 /* Messaging-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messaging-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29E8464279B159A00D12BD1 /* Messaging_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messaging_AppUITests.swift; sourceTree = "<group>"; };
 		E29E8466279B159A00D12BD1 /* Messaging_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messaging_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E29E8476279B17B000D12BD1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E29E8481279B1B6100D12BD1 /* SettingsViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewVC.swift; sourceTree = "<group>"; };
+		E29E8482279B1B6100D12BD1 /* SettingsViewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewVC.xib; sourceTree = "<group>"; };
+		E29E8485279B1B7300D12BD1 /* MessagesViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewVC.swift; sourceTree = "<group>"; };
+		E29E8486279B1B7300D12BD1 /* MessagesViewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessagesViewVC.xib; sourceTree = "<group>"; };
+		E29E8489279B1C1400D12BD1 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		E29E848A279B1C1400D12BD1 /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
+		E29E848D279B1C2C00D12BD1 /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		E29E848E279B1C2C00D12BD1 /* LogInVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogInVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +117,14 @@
 		E29E8442279B159800D12BD1 /* Messaging-App */ = {
 			isa = PBXGroup;
 			children = (
-				E29E8443279B159800D12BD1 /* AppDelegate.swift */,
-				E29E8445279B159800D12BD1 /* SceneDelegate.swift */,
-				E29E8447279B159800D12BD1 /* ViewController.swift */,
-				E29E8449279B159800D12BD1 /* Main.storyboard */,
-				E29E844C279B159A00D12BD1 /* Assets.xcassets */,
-				E29E844E279B159A00D12BD1 /* LaunchScreen.storyboard */,
+				E29E8476279B17B000D12BD1 /* GoogleService-Info.plist */,
 				E29E8451279B159A00D12BD1 /* Info.plist */,
+				E29E8478279B17C100D12BD1 /* Resources */,
+				E29E8480279B18E500D12BD1 /* Network-Manager */,
+				E29E847F279B18D900D12BD1 /* Models */,
+				E29E847C279B183300D12BD1 /* Views */,
+				E29E847D279B183C00D12BD1 /* ViewModels */,
+				E29E8479279B17C800D12BD1 /* Controllers */,
 			);
 			path = "Messaging-App";
 			sourceTree = "<group>";
@@ -125,6 +144,86 @@
 				E29E8466279B159A00D12BD1 /* Messaging_AppUITestsLaunchTests.swift */,
 			);
 			path = "Messaging-AppUITests";
+			sourceTree = "<group>";
+		};
+		E29E8478279B17C100D12BD1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E29E8443279B159800D12BD1 /* AppDelegate.swift */,
+				E29E8445279B159800D12BD1 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E29E8479279B17C800D12BD1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E29E8447279B159800D12BD1 /* ViewController.swift */,
+				E29E848D279B1C2C00D12BD1 /* LogInVC.swift */,
+				E29E8489279B1C1400D12BD1 /* SignUpVC.swift */,
+				E29E8485279B1B7300D12BD1 /* MessagesViewVC.swift */,
+				E29E8481279B1B6100D12BD1 /* SettingsViewVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E29E847A279B17E500D12BD1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E29E844E279B159A00D12BD1 /* LaunchScreen.storyboard */,
+				E29E8449279B159800D12BD1 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E29E847B279B17F100D12BD1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E29E844C279B159A00D12BD1 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E29E847C279B183300D12BD1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E29E847B279B17F100D12BD1 /* Assets */,
+				E29E847E279B18C700D12BD1 /* Nibs */,
+				E29E847A279B17E500D12BD1 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E29E847D279B183C00D12BD1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E29E847E279B18C700D12BD1 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				E29E848E279B1C2C00D12BD1 /* LogInVC.xib */,
+				E29E848A279B1C1400D12BD1 /* SignUpVC.xib */,
+				E29E8486279B1B7300D12BD1 /* MessagesViewVC.xib */,
+				E29E8482279B1B6100D12BD1 /* SettingsViewVC.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		E29E847F279B18D900D12BD1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E29E8480279B18E500D12BD1 /* Network-Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Network-Manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +331,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E29E8450279B159A00D12BD1 /* LaunchScreen.storyboard in Resources */,
+				E29E8477279B17B000D12BD1 /* GoogleService-Info.plist in Resources */,
+				E29E848C279B1C1400D12BD1 /* SignUpVC.xib in Resources */,
 				E29E844D279B159A00D12BD1 /* Assets.xcassets in Resources */,
 				E29E844B279B159800D12BD1 /* Main.storyboard in Resources */,
+				E29E8484279B1B6100D12BD1 /* SettingsViewVC.xib in Resources */,
+				E29E8490279B1C2C00D12BD1 /* LogInVC.xib in Resources */,
+				E29E8488279B1B7300D12BD1 /* MessagesViewVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +362,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29E8483279B1B6100D12BD1 /* SettingsViewVC.swift in Sources */,
 				E29E8448279B159800D12BD1 /* ViewController.swift in Sources */,
+				E29E8487279B1B7300D12BD1 /* MessagesViewVC.swift in Sources */,
+				E29E848F279B1C2C00D12BD1 /* LogInVC.swift in Sources */,
 				E29E8444279B159800D12BD1 /* AppDelegate.swift in Sources */,
+				E29E848B279B1C1400D12BD1 /* SignUpVC.swift in Sources */,
 				E29E8446279B159800D12BD1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,8 +553,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,8 +583,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

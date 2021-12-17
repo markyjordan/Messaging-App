@@ -1,0 +1,57 @@
+# ---------------------------------------------------------------------------- #
+# Project: Messaging App (IB UI)                                               #
+# Author: Mark Jordan                                                          #
+# Date Modified: Dec 17, 2021                                                  #                                         
+# ---------------------------------------------------------------------------- #
+
+# Temporary macOS Files
+.DS_Store
+.Trashes
+*.swp
+
+# App Packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# User Settings
+xcuserdata/
+xcuserstate/
+
+# hmap Xcode CLI Tool for Working with Clang Header Maps
+*.hmap
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+
+# ---------------------------------------------------------------------------- #
+# PROJECT DEPENDENCIES                                                         #
+# ---------------------------------------------------------------------------- #
+# CocoaPods                                                                                          #
+# Explicitly allow Podfile.lock so that it does not get ignored by a *.lock 
+# declaration:
+#
+!Podfile.lock
+#		
+#								 
+# ---------------------------------------------------------------------------- #
+# Facebook                                                                                          
+#
+# Authentication (OAuth2.0)
+#
+#
+# ---------------------------------------------------------------------------- #
+# Firebase                                                                                      
+#
+# Authentication
+# 
+#								 								 
+# ---------------------------------------------------------------------------- #
+# Google                                                                                        
+#
+# Authentication (OAuth2.0)
+#
+#								 
+# ---------------------------------------------------------------------------- #
